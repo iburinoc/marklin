@@ -1,0 +1,4 @@
+(executable
+ (name marklin)
+ (libraries core async)
+ (preprocess (pps ppx_jane)))
